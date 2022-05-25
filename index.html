@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/function.js"></script>
+    <title>tik tac toe </title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center p-5">
+                TIK TAK TOE 
+                <h3 class="turn"></h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 p-2 text-center">
+                    <button type="button" id="start" class="btn btn-outline-success">START</button>
+                    <div class="row" id="details">
+                        <div class="col-lg-12 p-2" >
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" >Player 1 Name</span>
+                                <input type="text" id="player1" class="form-control" placeholder="Player 1 Name" aria-label="Username" aria-describedby="player1">
+                              </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" >Player 2 Name</span>
+                                <input type="text" id="player2" class="form-control" placeholder="Player 2 Name" aria-label="Username" aria-describedby="player2">
+                              </div>
+                           <button type="button" id="startGame" class="btn btn-outline-success">startGame</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" >
+                <div class="grid-container col-lg-5 offset-lg-4" id="GamePlateForm">
+                    <div class="step" id="1"></div>
+                    <div class="step" id="2"></div>
+                    <div class="step" id="3"></div>  
+                    <div class="step" id="4"></div>
+                    <div class="step" id="5"></div>
+                    <div class="step" id="6"></div>  
+                    <div class="step" id="7"></div>
+                    <div class="step" id="8"></div>
+                    <div class="step" id="9"></div>  
+                  </div>
+                  <div class="row">
+                      <div class="col-lg-12 p-5 ml-5">
+                        <button type="button" id="reset" class="btn btn-outline-danger">Reset</button>
+                      </div>
+                  </div>
+                  </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+</html>
